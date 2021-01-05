@@ -1,0 +1,241 @@
+@charset "utf-8";
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    font-size:16px
+}
+#enust{
+    line-height:50px;
+    background-color:#f5f5f5;
+    width:100%;
+    height:50px;
+    text-align:center;
+    color:#003666;
+    position:stikcy;
+    top:0;
+    z-index:1;
+    padding-left:30px;
+    padding-right:30px;
+}
+#tel,
+#eposta{
+    float:left;
+    margin-right:20px;
+}
+#tel i{
+    margin-right:10px;
+    color:#ff5200;
+}
+#eposta i{
+    margin-right:10px;
+    color:#ff5200;
+}
+#tel i:hover{
+    opacity:.8;
+}
+#eposta i:hover{
+    opacity:.8;
+}
+#sosyalikon{
+    float:right;
+}
+#sosyalikon i{
+    color:#ff5200;
+    font-size:20px;
+    margin-right:15px;
+}
+#sosyalikon i:hover {
+    opacity:.8;
+}
+header{
+    width:100%;
+    height:80px;
+    box-shadow:0 2px 8px 2px rgba(20, 23, 28.15);
+    padding:0 20px;
+    margin-top:0;
+}
+#logo{
+    font-size:22px;
+    color:#003666;
+    float:left;
+    padding:10 0px;
+    letter-spacing:1px;
+}
+nav{
+    float:right;
+    line-height:80px;
+}
+nav a:link{
+    text-decoration:none;
+    color:#003666;
+    margin-right:25px
+}
+nav a:hover{
+    border-bottom:2px solid #ff5200;
+}
+nav a i{
+    margin-right:7px;
+}
+#banner{
+    background-image:url(img/WhatsApp%20Image%202020-12-30%20at%2009.05.53.jpeg);
+    width:100%;
+    height:450px;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.bannertext{
+    position:absolute;
+    top:50%;
+    left:40%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    -o-transform:translate(-50%, -50%);
+    color:#003666;
+}
+#yeni{
+    width:100%;
+    height:auto;
+    margin:0;
+    background-color:white;
+}
+h3{
+    background-color:#ff5200;
+    text-align:center;
+    padding:10px;
+    letter-spacing:2px;
+    box-shadow:0 2px 8px 2px rgba(20, 23, 28.15);
+}
+.kutu{
+    width:22%;
+    height:450px;
+    background-color:white;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    box-shadow:0 2px 8px 2px rgba(20, 23, 28.15);
+    margin:20px;
+    padding:10px;
+    float:left;
+}
+.yresim{
+    width:100%;
+    height:250px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    opacity:.6;
+    transition:opacity .8s;
+    -webkit-transition:opacity .8s;
+    -moz-transition:opacity .8s;
+    -ms-transition:opacity .8s;
+    -o-transition:opacity .8s;
+}
+.yresim:hover{
+    opacity:.1;
+}
+.ybaslik{
+    background-color:#003666;
+    color:white;
+    font-size:20px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    margin-top:0;
+}
+.ytext{
+    text-align:center;
+    color:#003666;
+}
+#hakkimizda{
+	background:#003666;
+	text-align:center;
+}
+#hakkimizda h2{
+	text-align:center;
+	color:#FFF;
+}
+#hakkimizda p{
+	text-align:center;
+	color:#FFF;
+}
+#hakkimizda h3{
+	color:#FFF;
+}
+#urun{
+	width:100%;
+	height:auto;
+	padding:27px;
+	float:left;
+	}
+#urun h1{
+	text-align:center;
+	color:#CB9C28;
+}
+.galeriresim{
+	width:22.5%;
+	height:250px;
+	border-radius:5px;
+	box-shadow:0 2px 8px 2px rgba(20,23,28,.15);
+	opacity:.8;
+	transition:all .8s;
+	margin:10px;
+	}
+.galeriresim:hover{
+	opacity:1;
+	border:5px solid white;
+	}
+.link{
+	text-decoration:none;
+	}
+#adres h1{
+	text-align:center;
+	color:#003;
+}
+iframe{
+	width:98%;
+	height:350px;
+	margin:10px;
+	border:0;
+	border-radius:5px;
+	box-shadow:0 2px 8px 2px rgba(20,23,28,.15);
+	}
+.ortala{
+	width:auto;
+	height:300px;
+	box-sizing:border-box;
+	text-align:center;
+	padding:10px 450px;
+	background-color:#FFF;
+	color:#000;
+	float:left;
+}
+.ortala h2{
+	color:#003;
+}
+.sil{
+    clear:both;
+}
+footer{
+    background-color:#ff5200;
+    color:white;
+    height:400px;
+    box-shadow:0 2px 8px 2px rgba(20, 23, 28.15);
+    text-align:center;
+    padding-top:50px;
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}
+footer a:hover{
+    color:#003666;
+}/* CSS Document */
+
